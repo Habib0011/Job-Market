@@ -1,0 +1,41 @@
+.header a{
+    margin-right: 15px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background:  linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    padding: 10px;
+    
+}
+.header h2{
+    font-size: 28px;
+}
+.active-link{
+    display: flex;
+    margin-top: 20px;
+}
+.btn-header{
+    width: 150px;
+    height: 50px;
+ color: #FFF;
+background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+}
+@media screen and (max-width:576px) {
+    .header{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0;
+    }
+    .active-link {
+        margin: 0 0 15px 0 ;
+    }
+
+    .active-link{
+        flex-direction: column;
+    }
+}

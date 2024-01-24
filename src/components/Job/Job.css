@@ -1,0 +1,43 @@
+.job{
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 1px solid var(--Dark-06, #E8E8E8);
+     text-align: left;
+     width: 480px;
+     height: 250px;
+     padding: 15px;
+     padding-left: 25px;
+}
+
+.job h3{
+    margin-bottom: 0;
+}
+.company-name{
+  margin: 10px 0;   
+}
+.job-btn{
+    display: flex;
+    gap: 5px;
+    margin: 5px 0;
+}
+.job-type{
+    background-color: whitesmoke;
+    color: #9873FF ;
+}
+.location-ammount{
+    margin: 10px 0;
+    display: flex;
+    gap: 50px;
+}
+.btn-details{
+    border-radius: 4px;
+     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+     color: white;
+}
+@media screen and (max-width:576px) {
+ .job{
+    width: 80%;
+ }
+    
+}
+
