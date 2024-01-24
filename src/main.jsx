@@ -10,6 +10,7 @@ import MainLayout from './components/Layout/MainLayout.jsx';
 import Home from './components/Home/Home.jsx';
 import JobDetails from './components/JobDetails/JobDetails.jsx';
 import Blog from './components/Blog/Blog.jsx';
+import Statistics from './components/Statistics/Statistics.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,14 @@ const router = createBrowserRouter([
       {
         path:'/blog',
         element:<Blog></Blog>
+      },
+      {
+        path:'/statistics',
+        element:<Statistics></Statistics>
+      },
+      {
+        path:'*',
+        element: <div><h2>404 page not found</h2></div>
       }
      
     ]

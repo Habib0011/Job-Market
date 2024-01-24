@@ -28,8 +28,7 @@ background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        padding: 0;
+        padding: 10px 0;
     }
     .active-link {
         margin: 0 0 15px 0 ;
